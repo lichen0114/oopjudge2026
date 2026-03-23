@@ -1,9 +1,17 @@
+/**
+ * Determines whether a given year is a leap year.
+ */
 public class IsLeapYear {
+    /**
+     * Creates an {@code IsLeapYear} instance.
+     */
+    public IsLeapYear() {
+    }
 
     /**
      * Determines whether a given year is a leap year.
-     * * @param year an integer representing the year (1 <= year <= 10000)
-     * 
+     *
+     * @param year an integer representing the year ({@code 1 <= year <= 10000})
      * @return true if the year is a leap year, false otherwise
      */
     public boolean determine(int year) {
