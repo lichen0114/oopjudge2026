@@ -1,7 +1,21 @@
 import java.util.Stack;
 
+/**
+ * Validates whether a string of parentheses, brackets, and braces is properly matched.
+ */
 public class ParenthesisMatcher {
 
+    /**
+     * Determines whether the given string contains valid, properly nested brackets.
+     * <p>
+     * Supported bracket types are: {@code ()}, {@code []}, and {@code {}}.
+     * Each opening bracket must have a corresponding closing bracket of the same type,
+     * and brackets must be closed in the correct order.
+     *
+     * @param s the string to validate
+     * @return {@code true} if every opening bracket has a matching closing bracket
+     *         in the correct order; {@code false} otherwise
+     */
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 
