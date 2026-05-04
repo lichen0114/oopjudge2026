@@ -10,6 +10,7 @@ public class Circle extends Shape {
      * @param length the diameter of the circle
      */
     public Circle(double length) {
+        super(length);
         setLength(length);
     }
 

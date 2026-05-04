@@ -10,6 +10,7 @@ public class Square extends Shape {
      * @param length the side length of the square
      */
     public Square(double length) {
+        super(length);
         setLength(length);
     }
 

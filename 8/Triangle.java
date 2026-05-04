@@ -10,6 +10,7 @@ public class Triangle extends Shape {
      * @param length the side length of the regular triangle
      */
     public Triangle(double length) {
+        super(length);
         setLength(length);
     }
 
