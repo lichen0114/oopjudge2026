@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class ParenthesisMatcher {
 
     public static boolean isValid(String s) {
@@ -39,5 +41,4 @@ public class ParenthesisMatcher {
         // Valid only if every opening bracket is matched
         return stack.isEmpty();
     }
-}
 }
